@@ -22,8 +22,6 @@ requirements:
   run:
     - python
     - dagster {{ version }}.*
-    - enum-compat >=0.0.1
-    - future >=0.16.0
     - great-expectations <=0.7.6
 
 test:
@@ -39,4 +37,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - xhochy
+    - conda-forge/dagster
